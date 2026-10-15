@@ -11,7 +11,7 @@ public class Warehouse{
         public Warehouse(String code,String name,String address){
             this.code=code;
             this.name=name;
-            his.address=address;
+            this.address=address;
 
         }
     

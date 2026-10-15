@@ -1,4 +1,9 @@
 package com.example.repository;
 import com.example.model.Warehouse;
-import rg.springframework.data.jpa.repository.JpaRespository;
-public interface WarehouseRepository extends JpaRepository<warehouse,Long>{boolean existsByCode(string code);}
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface WarehouseRepository
+        extends JpaRepository<Warehouse, Long> {
+
+    boolean existsByCode(String code);
+}

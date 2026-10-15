@@ -7,7 +7,7 @@ import jakarta.validation.valid;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController 
-@RestMaping("/apo/v1/warehouse") public class WarehouseController{
+@RestMaping("/apo/v1/warehouses") public class WarehouseController{
     private final WarehouseRepository repository;
     private final LocationService service;
     public WarehouseController(WarehouseRepository r,LocationService s){
